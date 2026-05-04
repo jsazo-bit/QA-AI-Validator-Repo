@@ -1,0 +1,30 @@
+{
+  "name": "install-qa-ai-validator",
+  "version": "1.0.0",
+  "description": "Instalador automático para QA AI Validator Skill - VS Code Copilot",
+  "main": "install.js",
+  "bin": {
+    "install-qa-ai-validator": "./install.js"
+  },
+  "scripts": {
+    "test": "node install.js"
+  },
+  "keywords": [
+    "vscode",
+    "copilot",
+    "skill",
+    "qa",
+    "validator",
+    "ai",
+    "code-review"
+  ],
+  "author": "jsazo-bit",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsazo-bit/qa-ai-validator-skill.git"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

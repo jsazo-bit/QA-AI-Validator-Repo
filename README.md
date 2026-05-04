@@ -4,15 +4,35 @@ Skill de validación de código generado por IA para VS Code Copilot.
 
 ## 🚀 Instalación en Un Comando
 
-### Windows (PowerShell)
+Abre una terminal en la raíz de tu proyecto y ejecuta:
+
+```bash
+npx install-qa-ai-validator
+```
+
+O también puedes usar:
+
+```bash
+npx github:jsazo-bit/qa-ai-validator-skill
+```
+
+### Métodos Alternativos
+
+<details>
+<summary>📦 Windows PowerShell</summary>
+
 ```powershell
 powershell -c "irm https://raw.githubusercontent.com/jsazo-bit/qa-ai-validator-skill/main/install.bat -OutFile install.bat; .\install.bat"
 ```
+</details>
 
-### Linux/Mac
+<details>
+<summary>🐧 Linux/Mac</summary>
+
 ```bash
 curl -fsSL https://raw.githubusercontent.com/jsazo-bit/qa-ai-validator-skill/main/install.sh | bash
 ```
+</details>
 
 ## 📋 Comandos Disponibles
 
