@@ -30,7 +30,7 @@ if (!fs.existsSync(skillsDir)) {
 
 console.log('[2/3] Descargando skill desde GitHub...');
 
-const skillUrl = 'https://raw.githubusercontent.com/jsazo-bit/qa-ai-validator-skill/main/SKILL.md';
+const skillUrl = 'https://raw.githubusercontent.com/jsazo-bit/QA-AI-Validator-Repo/main/SKILL.md';
 const skillPath = path.join(skillsDir, 'SKILL.md');
 
 https.get(skillUrl, (res) => {

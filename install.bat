@@ -27,7 +27,7 @@ if not exist "%WORKSPACE_DIR%\.agents\skills\qa-ai-validator" (
 )
 
 echo [2/3] Descargando skill desde GitHub...
-powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/jsazo-bit/qa-ai-validator-skill/main/SKILL.md' -OutFile '%WORKSPACE_DIR%\.agents\skills\qa-ai-validator\SKILL.md'"
+powershell -Command "Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/jsazo-bit/QA-AI-Validator-Repo/main/SKILL.md' -OutFile '%WORKSPACE_DIR%\.agents\skills\qa-ai-validator\SKILL.md'"
 
 if not exist "%WORKSPACE_DIR%\.agents\skills\qa-ai-validator\SKILL.md" (
     echo [ERROR] No se pudo descargar SKILL.md

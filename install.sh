@@ -23,7 +23,7 @@ echo "[1/3] Creando estructura de directorios..."
 mkdir -p "$WORKSPACE_DIR/.agents/skills/qa-ai-validator"
 
 echo "[2/3] Descargando skill desde GitHub..."
-curl -fsSL "https://raw.githubusercontent.com/jsazo-bit/qa-ai-validator-skill/main/SKILL.md" \
+curl -fsSL "https://raw.githubusercontent.com/jsazo-bit/QA-AI-Validator-Repo/main/SKILL.md" \
     -o "$WORKSPACE_DIR/.agents/skills/qa-ai-validator/SKILL.md"
 
 if [ ! -f "$WORKSPACE_DIR/.agents/skills/qa-ai-validator/SKILL.md" ]; then

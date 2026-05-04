@@ -22,7 +22,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jsazo-bit/qa-ai-validator-skill.git"
+    "url": "https://github.com/jsazo-bit/QA-AI-Validator-Repo.git"
   },
   "engines": {
     "node": ">=14.0.0"

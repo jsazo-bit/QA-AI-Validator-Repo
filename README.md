@@ -13,7 +13,7 @@ npx install-qa-ai-validator
 O también puedes usar:
 
 ```bash
-npx github:jsazo-bit/qa-ai-validator-skill
+npx github:jsazo-bit/QA-AI-Validator-Repo
 ```
 
 ### Métodos Alternativos
@@ -22,7 +22,7 @@ npx github:jsazo-bit/qa-ai-validator-skill
 <summary>📦 Windows PowerShell</summary>
 
 ```powershell
-powershell -c "irm https://raw.githubusercontent.com/jsazo-bit/qa-ai-validator-skill/main/install.bat -OutFile install.bat; .\install.bat"
+powershell -c "irm https://raw.githubusercontent.com/jsazo-bit/QA-AI-Validator-Repo/main/install.bat -OutFile install.bat; .\install.bat"
 ```
 </details>
 
@@ -30,7 +30,7 @@ powershell -c "irm https://raw.githubusercontent.com/jsazo-bit/qa-ai-validator-s
 <summary>🐧 Linux/Mac</summary>
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/jsazo-bit/qa-ai-validator-skill/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/jsazo-bit/QA-AI-Validator-Repo/main/install.sh | bash
 ```
 </details>
 
